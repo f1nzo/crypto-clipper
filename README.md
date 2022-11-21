@@ -12,6 +12,17 @@ cargo run
 
 note: remember to replace the crypto wallets in main.rs with your own
 
+## Supported Cryptocurrencies
+
+* Ethereum
+* Bitcoin
+* Dash
+* Monero
+* Bitcoincash
+* Litecoin
+* Dogecoin
+* XRP
+
 ## How to Contribute
 
 This project is extremely small, but if you are interested in contributing, please feel free to add the proper support for other popular cryptocurrencies; please keep in mind that you will need the regex for each cryptocurrency you would like to add.
