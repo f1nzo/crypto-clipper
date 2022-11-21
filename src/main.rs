@@ -14,22 +14,22 @@ fn main() {
     let wallets = vec![
         Wallet {
             name: "ethereum".to_string(),
-            address: "0x932311ccd502a49f4ec03d7a0f67e79c3fcaa986".to_string(),
+            address: "0x932311ccd502a49f4ec03d7a0f67e79c3fcaa986".to_string(), // replace with your etherium address
             regex: Regex::new(r"^0x[a-fA-F0-9]{40}$").unwrap(),
         },
         Wallet {
             name: "bitcoin".to_string(),
-            address: "3Dahd1iGmgf3uiCXsNCT5mVPYXkLpaUHMy".to_string(),
+            address: "3Dahd1iGmgf3uiCXsNCT5mVPYXkLpaUHMy".to_string(), // replace with your bitcoin address
             regex: Regex::new(r"^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$").unwrap(),
         },
         Wallet {
             name: "dash".to_string(),
-            address: "XpuSFGxi5de984aQUbf2mEHFdwpvMQv1en".to_string(),
+            address: "XpuSFGxi5de984aQUbf2mEHFdwpvMQv1en".to_string(), // replace with your dash address
             regex: Regex::new(r"X[1-9A-HJ-NP-Za-km-z]{33}$").unwrap(),
         },
         Wallet {
             name: "monero".to_string(),
-            address: "84FnWj7GHLLPppoehvr5r2enLBBfH5CFB4asdn4HKGXXHWj8nHysDP4RXQv4tbF25o3jaTFzedoBeA69ZFA7mjoVJ7PEeGz".to_string(),
+            address: "84FnWj7GHLLPppoehvr5r2enLBBfH5CFB4asdn4HKGXXHWj8nHysDP4RXQv4tbF25o3jaTFzedoBeA69ZFA7mjoVJ7PEeGz".to_string(), // replace with your monero address
             regex: Regex::new(r"4[0-9AB][1-9A-HJ-NP-Za-km-z]{93}$").unwrap(),
         },
     ];
