@@ -83,6 +83,7 @@ name = "crypto-clipper"
 version = "0.1.0"
 dependencies = [
  "cli-clipboard",
+ "clipboard-win",
  "regex",
 ]
 
