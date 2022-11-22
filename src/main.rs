@@ -7,40 +7,6 @@ struct Wallet {
     regex: Regex,
 }
 
-// struct ClipboardCtx {
-//     #[cfg(target_os = "linux")]
-//     inner: cli_clipboard::ClipboardContext,
-// }
-
-// impl ClipboardCtx {
-//     fn new() -> Self {
-//         #[cfg(target_os = "linux")]
-//         let inner = cli_clipboard::ClipboardContext::new().unwrap();
-//         Self {
-//             #[cfg(target_os = "linux")]
-//             inner,
-//         }
-//     }
-
-//     fn get_contents(&mut self) -> String {
-//         #[cfg(target_os = "linux")]
-//         {
-//             self.inner.get_contents().unwrap()
-//         }
-//         #[cfg(target_os = "windows")]
-//         clipboard_win::get_clipboard(clipboard_win::formats::Unicode).unwrap()
-//     }
-
-//     fn set_contents(&mut self, contents: String) {
-//         #[cfg(target_os = "linux")]
-//         {
-//             self.inner.set_contents(contents).unwrap();
-//         }
-//         #[cfg(target_os = "windows")]
-//         clipboard_win::set_clipboard(clipboard_win::formats::Unicode, contents).unwrap();
-//     }
-// }
-
 fn main() {
     let wallets = vec![
         Wallet {
